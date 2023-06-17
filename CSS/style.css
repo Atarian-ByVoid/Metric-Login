@@ -266,9 +266,14 @@ body{
 
 } 
 
-.input-box input:focus~label,
+
+.input-box input:focus~label{
+    top: -5px;
+
+}
 .input-box input:valid~label{
     top: -5px;
+
 } 
 
 .input-box .icon{
@@ -337,4 +342,5 @@ body{
 .login-register p a:hover{
     text-decoration: underline;
 } 
+
 
